@@ -15,7 +15,7 @@
     <div class="container mt-5">
         <div class="row">
             <div class="col-md-10">
-                <h1>สร้าง Catalog</h1>
+                <h1>แก้ไข Catalog</h1>
             </div>
             <div class="col-md-2">
                 <a href="./home.php" class="btn btn-warning form-control">ย้อนกลับ</a>
@@ -24,7 +24,7 @@
         <hr>
         <div class="row">
             <div class="col-md-12">
-                <form method="post" action="./store.php">
+                <form method="post" action="./update.php">
                     <div class="form-group">
                         <label>ชื่อ Catalog</label>
                         <input type="text" class="form-control" placeholder="กรุณากรอกชื่อ Catalog" name="name">
@@ -52,6 +52,7 @@
                         <input type="radio" name="gender" value="2"> หญิง
                         <input type="radio" name="gender" value="3"> อื่นๆ
                     </div>
+                    <input type="hidden" name="id" value="1">
                     <button type="submit" class="btn btn-success form-control">ยืนยัน</button>
                 </form>
             </div>
